@@ -1,0 +1,337 @@
+﻿@model Web_Music.Models.MusicViewModel1
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .single-album-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .album-thumb img {
+        width: 100%;
+        height: 150px; /* Đảm bảo tất cả hình ảnh có chiều cao bằng nhau */
+        object-fit: cover; /* Giữ tỷ lệ khung hình mà không làm méo ảnh */
+    }
+
+    .album-info {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .album-price {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    /* Thẻ video container */
+    #video-player {
+        display: block; /* Hiển thị video */
+        width: 100%; /* Chiếm toàn bộ chiều rộng của container */
+        max-width: 100%; /* Không vượt quá chiều rộng của vùng chứa */
+        margin: 0 auto; /* Căn giữa video */
+        border-radius: 10px; /* Bo góc video */
+        overflow: hidden; /* Ẩn phần thừa khi video vượt quá giới hạn */
+        background: #000; /* Đặt màu nền cho video */
+    }
+
+        /* Điều chỉnh thẻ video bên trong */
+        #video-player video {
+            width: 100%; /* Chiếm toàn bộ chiều rộng của vùng chứa video */
+            height: auto; /* Đảm bảo tỷ lệ aspect của video không bị thay đổi */
+            border-radius: 10px; /* Bo góc video nếu cần */
+        }
+
+    /* Điều chỉnh các phần khác nếu cần */
+    #album-cover {
+        display: block; /* Đảm bảo ảnh bìa hiển thị */
+        width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng */
+        max-width: 100%; /* Không vượt quá chiều rộng */
+        margin: 0 auto; /* Căn giữa ảnh */
+        border-radius: 10px; /* Bo góc cho ảnh bìa */
+    }
+
+
+</style>
+<section class="hero-area">
+    <div class="hero-slides owl-carousel">
+        <!-- Single Hero Slide -->
+        <div class="single-hero-slide d-flex align-items-center justify-content-center">
+            <!-- Slide Img -->
+            <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
+            <!-- Slide Content -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="hero-slides-content text-center">
+                            <h6 data-animation="fadeInUp" data-delay="100ms">Latest album</h6>
+                            <h2 data-animation="fadeInUp" data-delay="300ms">Beyond Time <span>Beyond Time</span></h2>
+                            <a data-animation="fadeInUp" data-delay="500ms" href="#" class="btn oneMusic-btn mt-50">Discover <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Hero Slide -->
+        <div class="single-hero-slide d-flex align-items-center justify-content-center">
+            <!-- Slide Img -->
+            <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
+            <!-- Slide Content -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="hero-slides-content text-center">
+                            <h6 data-animation="fadeInUp" data-delay="100ms">Latest album</h6>
+                            <h2 data-animation="fadeInUp" data-delay="300ms">Colorlib Music <span>Colorlib Music</span></h2>
+                            <a data-animation="fadeInUp" data-delay="500ms" href="#" class="btn oneMusic-btn mt-50">Discover <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="latest-albums-area section-padding-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading style-2">
+                    <p>See what’s new</p>
+                    <h2>Latest Albums</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-9">
+                <div class="ablums-text text-center mb-70">
+                    <p>Các Album mới nhất được phát hành</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="albums-slideshow owl-carousel">
+                    <!-- Single Album -->
+                    @foreach (var album in Model.Albums)
+                    {
+                        <div class="single-album">
+                            <img src="~/img/bg-img/@album.AnhBia" alt="">
+                            <div class="album-info">
+                                <a href="#">
+                                    <h5>@album.TenAlbum</h5>
+                                </a>
+                                <p>@album.MaCaSiNavigation.TenCaSi</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Latest Albums Area End ##### -->
+<!-- ##### Buy Now Area Start ##### -->
+<section class="oneMusic-buy-now-area has-fluid bg-gray section-padding-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading style-2">
+                    <p>See what’s new</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Single Album Area -->
+            @foreach (var baihat in Model.BaiHats)
+            {
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="100ms">
+                        <div class="album-thumb">
+                            <img src="img/bg-img/@baihat.AnhBia" alt="">
+                            <!-- Album Price -->
+                            <div class="album-price">
+                                <p>@baihat.ThoiLuong</p>
+                            </div>
+                            <!-- Play Icon -->
+                            <div class="play-icon">
+                                <!-- Truyền mã bài hát vào data-id -->
+                                <a href="#PhatNhac" class="play-btn" 
+                                data-id="@baihat.MaBaiHat"
+                                data-ten-bai-hat="@baihat.TenBaiHat"
+                                data-ca-si="@baihat.MaCaSiNavigation.TenCaSi"
+                                data-anh-bia="@baihat.AnhBia"
+                                data-audio="audio/@baihat.DuongDanFile"
+                                data-tieu-su="@baihat.MaCaSiNavigation.TieuSu">
+                                    <span class="icon-play-button"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="album-info">
+                            <a href="#PhatNhac" class="play-btn" data-id="@baihat.MaBaiHat"
+                            data-ten-bai-hat="@baihat.TenBaiHat"
+                            data-ca-si="@baihat.MaCaSiNavigation.TenCaSi"
+                            data-anh-bia="@baihat.AnhBia"
+                            data-audio="audio/@baihat.DuongDanFile"
+                            data-tieu-su="@baihat.MaCaSiNavigation.TieuSu">
+
+                                <h5>@baihat.TenBaiHat</h5>
+                            </a>
+                            <p>@baihat.MaCaSiNavigation.TenCaSi</p>
+                            <p>@baihat.MaCaSiNavigation.TieuSu</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="300ms">
+                    <a href="#" class="btn oneMusic-btn">Load More <i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" id="PhatNhac" style="background-image: url(img/bg-img/bg-4.jpg);">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="featured-artist-thumb">
+                    <!-- Ảnh bìa sẽ được cập nhật khi người dùng nhấn vào bài hát -->
+                    <img src="img/bg-img/" alt="" id="album-cover" style="display:block;">
+                </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-8">
+                <div class="featured-artist-content">
+                    <div class="section-heading white text-left mb-30">
+                        <h2 class="singer-name"></h2>
+                        <p class="singer-name"></p>
+                    </div>
+                    <p class="singer-Tieusu"></p>
+                    <div class="song-play-area">
+                        <div class="song-name">
+                            <p id="song-name"></p>
+                        </div>
+
+                        <!-- Phần audio ẩn -->
+                        <div id="audio-player" style="display:none;">
+                            <audio preload="auto" controls>
+                                <source src="audio/dummy-audio.mp3" id="audio-source">
+                            </audio>
+                        </div>
+
+                        <!-- Phần video ẩn -->
+                        <div id="video-player" style="display:none;">
+                            <video preload="auto" controls>
+                                <source src="audio/dummy-video.mp4" id="video-source">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- ##### Featured Artist Area End ##### -->
+<!-- ##### Miscellaneous Area Start ##### -->
+<section class="miscellaneous-area section-padding-100-0">
+    <div class="container">
+        <div class="row">
+            <!-- ***** Weeks Top ***** -->
+            <div class="col-12 col-lg-4">
+                <div class="weeks-top-area mb-100">
+                    <div class="section-heading text-left mb-50 wow fadeInUp" data-wow-delay="50ms">
+                        <p>See what’s new</p>
+                        <h2>This week’s top</h2>
+                    </div>
+
+                    <!-- Single Top Item -->
+                    @foreach (var baihat in Model.BaiHats)
+                    {
+                        <div class="single-top-item d-flex wow fadeInUp" data-wow-delay="100ms">
+                            <div class="thumbnail">
+                                <img src="img/bg-img/@baihat.AnhBia" alt="">
+                            </div>
+                            <div class="content-">
+                                <h6>@baihat.TenBaiHat</h6>
+                                <p>@baihat.MaCaSiNavigation.TieuSu</p>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+
+            <!-- ***** New Hits Songs ***** -->
+            <div class="col-12 col-lg-4">
+                <div class="new-hits-area mb-100">
+                    <div class="section-heading text-left mb-50 wow fadeInUp" data-wow-delay="50ms">
+                        <p>See what’s new</p>
+                        <h2>New Hits</h2>
+                    </div>
+                    @foreach (var baihat in Model.BaiHats)
+                    {
+                        <!-- Single Top Item -->
+                        <div class="single-new-item d-flex align-items-center justify-content-between wow fadeInUp" data-wow-delay="100ms">
+                            <div class="first-part d-flex align-items-center">
+                                <div class="thumbnail">
+                                    <img src="img/bg-img/@baihat.AnhBia" alt="">
+                                </div>
+                                <div class="content-">
+                                    <h6>@baihat.TenBaiHat</h6>
+                                    <p>@baihat.MaCaSiNavigation.TieuSu</p>
+                                </div>
+                            </div>
+                            <audio preload="auto" controls>
+                                <source src="audio/@baihat.DuongDanFile">
+                            </audio>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- ***** Popular Artists ***** -->
+            <div class="col-12 col-lg-4">
+                <div class="popular-artists-area mb-100">
+                    <div class="section-heading text-left mb-50 wow fadeInUp" data-wow-delay="50ms">
+                        <p>See what’s new</p>
+                        <h2>Popular Artist</h2>
+                    </div>
+                    @foreach (var casi in Model.CaSis)
+                    {
+                        <div class="single-artists d-flex align-items-center wow fadeInUp" data-wow-delay="100ms">
+                            <div class="thumbnail">
+                                <img src="img/bg-img/@casi.AnhDaiDien" alt="">
+                            </div>
+                            <div class="content-">
+                                <p>@casi.TenCaSi</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

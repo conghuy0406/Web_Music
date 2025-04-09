@@ -1,0 +1,128 @@
+﻿@model IEnumerable<Web_Music.Models.BaiHat>
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Đảm bảo các ô bảng không có khoảng cách */
+        margin-top: 20px;
+    }
+
+    .table-container {
+        overflow-x: auto; /* Cho phép cuộn ngang nếu bảng quá rộng */
+        max-width: 100%; /* Đảm bảo bảng không vượt quá chiều rộng của container */
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd; /* Viền cho bảng */
+    }
+
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9; /* Màu nền cho các hàng chẵn */
+    }
+
+    tr:hover {
+        background-color: #f1f1f1; /* Màu nền khi hover */
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+<h1>Bài Hát</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-container">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenBaiHat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThoiLuong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DuongDanFile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnhBia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LuotNghe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayThem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaAlbumNavigation.TenAlbum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaCaSiNavigation.TenCaSi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaTheLoaiNavigation.TenTheLoai)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenBaiHat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThoiLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DuongDanFile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnhBia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LuotNghe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayThem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaAlbumNavigation.TenAlbum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaCaSiNavigation.TenCaSi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaTheLoaiNavigation.TenTheLoai)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaBaiHat">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaBaiHat">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaBaiHat">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

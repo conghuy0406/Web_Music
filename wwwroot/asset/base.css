@@ -1,0 +1,25 @@
+﻿/* CSS cho ảnh album */
+.album-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Tạo hình tròn */
+    margin: 0 auto; /* Căn giữa hình ảnh */
+    transition: transform 0.5s ease-in-out; /* Thiết lập độ mượt cho chuyển động */
+    display: block; /* Đảm bảo ảnh là block element */
+}
+
+    /* Lớp 'rotating' sẽ được thêm khi audio bắt đầu phát */
+    .album-image.rotating {
+        animation: rotate 4s linear infinite; /* Quay liên tục với tốc độ đều */
+    }
+
+/* Định nghĩa hiệu ứng quay */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg); /* Bắt đầu từ góc 0 độ */
+    }
+
+    100% {
+        transform: rotate(360deg); /* Quay 360 độ */
+    }
+}

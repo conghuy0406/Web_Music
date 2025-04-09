@@ -1,0 +1,92 @@
+﻿@model IEnumerable<Web_Music.Models.Album>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Đảm bảo các ô bảng không có khoảng cách */
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd; /* Viền cho bảng */
+    }
+
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9; /* Màu nền cho các hàng chẵn */
+    }
+
+    tr:hover {
+        background-color: #f1f1f1; /* Màu nền khi hover */
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+<h1>Album</h1>
+
+<p>
+    <a asp-action="Add">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenAlbum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnhBia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayPhatHanh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaCaSiNavigation.TenCaSi)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenAlbum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnhBia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayPhatHanh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaCaSiNavigation.TenCaSi)
+            </td>
+            <td>
+                <a asp-action="Update" asp-route-id="@item.MaAlbum">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaAlbum">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaAlbum">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

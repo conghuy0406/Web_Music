@@ -1,0 +1,97 @@
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="~/Admin/style.css">
+    <title>Responsive Dashboard Design #2 | AsmrProg</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>One</span>Sound</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="@Url.Action("Index", "Album")"><i class="fa-solid fa-compact-disc"></i> Album</a></li>
+            <li><a href="@Url.Action("Index", "BaiHats")"><i class="fa-solid fa-music"></i> Bài Hát</a></li>
+            <li class="active"><a> <i class="fa-solid fa-user-tie"></i> Quản Lý</a></li>
+            <li><a href="@Url.Action("Index", "CaSis")"><i class="fa-solid fa-headset"></i> Ca sĩ</a></li>
+            <li><a href="@Url.Action("Index", "Account")"><i class="fa-solid fa-user"></i> User</a></li>
+            <li><a href="@Url.Action("Index", "TheLoais")"><i class="fa-solid fa-user"></i> Thể loại</a></li>
+            <li><a href="@Url.Action("Index", "Home")"><i class="fa-solid fa-house"></i> Home</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                @if (HttpContextAccessor.HttpContext.Session.GetString("Email") != null)
+                {
+
+                    <div class="login-register-btn mr-50">
+
+                    </div>
+
+                    <a class="">
+                        <i class='fa-solid fa-user'></i>
+                        <p>@HttpContextAccessor.HttpContext.Session.GetString("Email")!</p>
+                    </a>
+
+                    <a href="@Url.Action("Logout", "Account")" class="logout">
+                        <i class='bx bx-log-out-circle'></i>
+                        Logout
+                    </a>
+
+                }
+                else
+                {
+                    <a href="@Url.Action("Login", "Account")" class="Login">
+                        <i class='bx bx-log-out-circle'></i>
+                        Login
+                    </a>
+                    <a href="@Url.Action("Register", "Account")" class="Register">
+                        <i class='bx bx-log-out-circle'></i>
+                        Register
+                    </a>
+                }
+
+
+
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+
+
+        </nav>
+
+        <!-- End of Navbar -->
+        <div>
+            @RenderBody()
+        </div>
+
+    </div>
+
+    <script src="~/Admin/index.js"></script>
+    <script src="https://kit.fontawesome.com/982f450532.js" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+﻿@model Web_Music.Models.NguoiDung
+@{
+	Layout = null;  // Tắt layout cho trang này
+}
+<h2>Delete Product</h2>
+<form asp-action="DeleteConfirmed" method="post">
+	<input type="hidden" name="id" value="@Model.MaNguoiDung"/>
+	<p>Are you sure you want to delete @Model.TenDangNhap?</p>
+	<button type="submit" class="btn btn-danger">Delete</button>
+</form>

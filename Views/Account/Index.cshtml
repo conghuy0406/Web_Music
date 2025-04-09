@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Web_Music.Models.NguoiDung>
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<h2>Danh sách người dùng</h2>
+
+<!-- Thêm CSS để định dạng bảng -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Đảm bảo các ô bảng không có khoảng cách */
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd; /* Viền cho bảng */
+    }
+
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9; /* Màu nền cho các hàng chẵn */
+    }
+
+    tr:hover {
+        background-color: #f1f1f1; /* Màu nền khi hover */
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+@if (Model != null && Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>MaNguoiDung</th>
+                <th>TenDangNhap</th>
+                <th>MatKhau</th>
+                <th>Email</th>
+                <th>VaiTro</th>
+                <th>NgayTao</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.MaNguoiDung</td>
+                    <td>@product.TenDangNhap</td>
+                    <td>@product.MatKhau</td>
+                    <td>@product.Email</td>
+                    <td>@product.VaiTro</td>
+                    <td>@product.NgayTao?.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@product.MaNguoiDung">Sửa</a> |
+                        <a asp-action="Delete" asp-route-id="@product.MaNguoiDung">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có sản phẩm nào.</p>
+}

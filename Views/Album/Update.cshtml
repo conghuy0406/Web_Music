@@ -1,0 +1,88 @@
+﻿@model Web_Music.Models.Album
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Đảm bảo các ô bảng không có khoảng cách */
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd; /* Viền cho bảng */
+    }
+
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9; /* Màu nền cho các hàng chẵn */
+    }
+
+    tr:hover {
+        background-color: #f1f1f1; /* Màu nền khi hover */
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+<h1>Update</h1>
+
+<h4>Album</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaAlbum" />
+            <div class="form-group">
+                <label asp-for="TenAlbum" class="control-label"></label>
+                <input asp-for="TenAlbum" class="form-control" />
+                <span asp-validation-for="TenAlbum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaCaSi" class="control-label"></label>
+                <select asp-for="MaCaSi" class="form-control" asp-items="ViewBag.MaCaSi"></select>
+                <span asp-validation-for="MaCaSi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnhBia" class="control-label"></label>
+                <input asp-for="AnhBia" class="form-control" />
+                <span asp-validation-for="AnhBia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgayPhatHanh" class="control-label"></label>
+                <input asp-for="NgayPhatHanh" class="form-control" />
+                <span asp-validation-for="NgayPhatHanh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

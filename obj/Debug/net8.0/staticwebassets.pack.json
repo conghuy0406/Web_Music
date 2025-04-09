@@ -1,0 +1,793 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web_Music.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Web_Music.mb89aszrid.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\Admin\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\Admin\\images\\profile-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\profile-1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\Admin\\index.js",
+      "PackagePath": "staticwebassets\\Admin\\index.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\Admin\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\style.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\asset\\app.js",
+      "PackagePath": "staticwebassets\\asset\\app.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\asset\\base.css",
+      "PackagePath": "staticwebassets\\asset\\base.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\Believer.mp3",
+      "PackagePath": "staticwebassets\\audio\\Believer.mp3"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\Blankspace.mp3",
+      "PackagePath": "staticwebassets\\audio\\Blankspace.mp3"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\Dive.mp3",
+      "PackagePath": "staticwebassets\\audio\\Dive.mp3"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\Eraser.mp3",
+      "PackagePath": "staticwebassets\\audio\\Eraser.mp3"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\HowWouldYouFeel.mp3",
+      "PackagePath": "staticwebassets\\audio\\HowWouldYouFeel.mp3"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\ShapeofYou.mp4",
+      "PackagePath": "staticwebassets\\audio\\ShapeofYou.mp4"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\Shapofyou.mp3",
+      "PackagePath": "staticwebassets\\audio\\Shapofyou.mp3"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\audio\\dummy-audio.mp3",
+      "PackagePath": "staticwebassets\\audio\\dummy-audio.mp3"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\audioplayer.css",
+      "PackagePath": "staticwebassets\\css\\audioplayer.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\classy-nav.css",
+      "PackagePath": "staticwebassets\\css\\classy-nav.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\one-music-icon.css",
+      "PackagePath": "staticwebassets\\css\\one-music-icon.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\classy.eot",
+      "PackagePath": "staticwebassets\\fonts\\classy.eot"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\classy.svg",
+      "PackagePath": "staticwebassets\\fonts\\classy.svg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\classy.ttf",
+      "PackagePath": "staticwebassets\\fonts\\classy.ttf"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\classy.woff",
+      "PackagePath": "staticwebassets\\fonts\\classy.woff"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\Dive.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\Dive.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\Hwyf.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\Hwyf.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a10.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a10.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a11.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a11.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a12.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a12.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a4.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a5.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a5.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a6.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a6.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a7.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a7.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a8.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a8.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\a9.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\a9.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\add.gif",
+      "PackagePath": "staticwebassets\\img\\bg-img\\add.gif"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\add2.gif",
+      "PackagePath": "staticwebassets\\img\\bg-img\\add2.gif"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\add3.gif",
+      "PackagePath": "staticwebassets\\img\\bg-img\\add3.gif"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\b1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\b1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\b2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\b2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\b3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\b3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\b4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\b4.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\beliver.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\beliver.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\bg-1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\bg-2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\bg-3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\bg-3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\bg-4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\bg-4.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\blankspace.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\blankspace.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\blog1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\blog1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\blog2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\blog2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\blog3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\blog3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\breadcumb.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\breadcumb.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\breadcumb2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\breadcumb2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\breadcumb3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\breadcumb3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\divide_album.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\divide_album.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e4.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e5.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e5.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e6.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e6.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e7.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e7.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e8.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e8.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\e9.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\e9.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\ed_sheeran.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\ed_sheeran.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\eraser.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\eraser.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\evolve_album.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\evolve_album.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\fa.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\fa.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\imagine_dragons.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\imagine_dragons.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\pa1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\pa1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\pa2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\pa2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\pa3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\pa3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\pa4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\pa4.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\pa5.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\pa5.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\pa6.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\pa6.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\pa7.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\pa7.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\reputation_album.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\reputation_album.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\s1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\s1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\s2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\s2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\s3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\s3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\s4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\s4.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\shapeofyou.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\shapeofyou.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\t1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\t1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\taylor_swift.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\taylor_swift.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt1.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt10.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt10.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt11.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt11.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt12.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt12.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt2.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt3.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt4.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt5.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt5.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt6.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt6.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt7.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt7.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt8.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt8.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\bg-img\\wt9.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\wt9.jpg"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\core-img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\core-img\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\img\\core-img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\logo.png"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\Album_js.js",
+      "PackagePath": "staticwebassets\\js\\Album_js.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\Index_js.js",
+      "PackagePath": "staticwebassets\\js\\Index_js.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\active.js",
+      "PackagePath": "staticwebassets\\js\\active.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\bootstrap\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\jquery\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\plugins\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\plugins.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\scss\\_mixin.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixin.scss"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\scss\\_theme_color.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme_color.scss"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "E:\\Study_IT\\Project_Web\\Web_Music\\wwwroot\\style.css.map",
+      "PackagePath": "staticwebassets\\style.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web_Music.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Web_Music.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Web_Music.props",
+      "PackagePath": "build\\Web_Music.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Web_Music.props",
+      "PackagePath": "buildMultiTargeting\\Web_Music.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Web_Music.props",
+      "PackagePath": "buildTransitive\\Web_Music.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

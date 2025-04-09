@@ -1,0 +1,147 @@
+@model Web_Music.Models.MusicViewModel1
+
+@{
+
+    ViewData["Title"] = "Album";
+
+}
+<!-- ##### Breadcumb Area Start ##### -->
+<section class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/breadcumb3.jpg);">
+    <div class="bradcumbContent">
+        <p>See what’s new</p>
+        <h2>Latest Albums</h2>
+    </div>
+</section>
+<!-- ##### Breadcumb Area End ##### -->
+
+<section class="album-catagory section-padding-100-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Search Bar for Albums -->
+                <div class="album-search mb-50">
+                    <input type="text" id="albumSearch" placeholder="Search albums..." onkeyup="searchAlbums()">
+                </div>
+                <!-- Category Filter -->
+                <div class="browse-by-catagories catagory-menu d-flex flex-wrap align-items-center mb-70">
+                    <a href="#" data-filter="*" class="active">Browse All</a>
+                    <a href="#" data-filter=".a">A</a>
+                    <a href="#" data-filter=".b">B</a>
+                    <a href="#" data-filter=".c">C</a>
+                    <a href="#" data-filter=".d">D</a>
+                    <a href="#" data-filter=".e">E</a>
+                    <!-- Add other category filters here -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row oneMusic-albums" id="albumList">
+            @foreach (var album in Model.Albums)
+            {
+                <!-- Single Album -->
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2 single-album-item @album.TenAlbum.Substring(0,1).ToLower()">
+                    <div class="single-album-area">
+                        <div class="album-thumb">
+                        <img src="~/img/bg-img/@album.AnhBia" alt="">
+                        <div class="play-icon">
+                                <a asp-controller="Home"
+                                   asp-action="Display"
+                                   asp-route-id="@album.MaAlbum">
+                                    <span class="icon-play-button"></span>
+                                </a>
+                        </div>
+                        </div>
+                        <div class="album-info">
+                            <a asp-controller="Home"
+                               asp-action="Display"
+                               asp-route-id="@album.MaAlbum">
+                                <h5>@album.TenAlbum</h5>
+                            </a>
+                            <p>@album.MaCaSiNavigation.TenCaSi</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+
+    <!-- ##### Song Area Start ##### -->
+    <div class="one-music-songs-area mb-70">
+        <div class="container">
+            <div class="row">
+
+                <!-- Single Song Area -->
+                <div class="col-12">
+                    <div class="single-song-area mb-30 d-flex flex-wrap align-items-end">
+                        <div class="song-thumbnail">
+                            <img src="~/img/bg-img/s1.jpg" alt="">
+                        </div>
+                        <div class="song-play-area">
+                            <div class="song-name">
+                                <p>01. Main Hit Song</p>
+                            </div>
+                            <audio preload="auto" controls>
+                                <source src="~/audio/dummy-audio.mp3">
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- ##### Song Area End ##### -->
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100 bg-img bg-overlay bg-fixed has-bg-img" style="background-image: url(/Assets/img/bg-img/bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading white">
+                        <p>See what’s new</p>
+                        <h2>Get In Touch</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Contact Form Area -->
+                    <div class="contact-form-area">
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn oneMusic-btn mt-30" type="submit">Send <i class="fa fa-angle-double-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
